@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/boxAlert"
+    android:gravity="center"
+    android:visibility="gone">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription=""
+            tools:ignore="ContentDescription"
+            android:id="@+id/imgLogoYandex"
+            android:layout_margin="5dp"
+            android:src="@drawable/yandex_dengi_product_icon_rgb" />
+
+        <TextView
+            android:text="@string/pay_status_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textAlert"
+            android:layout_margin="16dp"
+            android:textSize="24sp"
+            android:gravity="center" />
+
+        <Button
+            android:text="@string/btn_pay_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_shadow"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/btnSuccess" />
+
+    </LinearLayout>

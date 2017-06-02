@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--Настройки для 4 и менее дюйма-->
+    <dimen name="custom_profile_image">50dp</dimen>
+    <dimen name="custom_profile_padding">2dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textsize">15sp</dimen>
+    <dimen name="avatar_w">100dp</dimen>
+    <dimen name="avatar_h">100dp</dimen>
+    <dimen name="txt_size_smol">11dp</dimen>
+    <dimen name="txt_size_midle">14dp</dimen>
+    <dimen name="txt_size_big">16dp</dimen>
+    <dimen name="action_bar_height">56dp</dimen>
+    <dimen name="activity_layout_padding">16dp</dimen>
+    </resources>

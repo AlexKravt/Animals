@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#fff</color>
+    <color name="alert_bg">#ff2c5463</color>
+    <color name="root_bg">#004b5b</color>
+    <color name="bg_btn">#004b5b</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#d4d4d4</color>
+    <color name="light_black">#666666</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#004b5b</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="item_select_active">#ffd6ecff</color>
+    <color name="item_select_noactive">#ffffffff</color>
+    <color name="light_green">#520097ae</color>
+    <color name="light_broun">#520097ae</color>
+    <!---->
+    <color name="apptheme_primary">#004b5b</color>
+    <color name="color_birds">#07c7ff</color>
+    <color name="color_predators">#a61b07</color>
+    <color name="color_parn">#286200</color>
+    <color name="color_no_parn">#3f5703</color>
+    <color name="color_rept">#00b691</color>
+    <color name="color_mous">#8996ad</color>
+    <color name="apptheme_primary_dark">#003646</color>
+    <color name="apptheme_accent">@android:color/white</color>
+
+    <color name="gradient_start">#50000000</color>
+    <color name="gradient_light_start">#30000000</color>
+</resources>

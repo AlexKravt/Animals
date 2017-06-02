@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:id="@+id/frgment_home">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="ScrollViewSize">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/bg_top_img"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_fon"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginTop="250dp"
+                android:id="@+id/list_menu_blok"
+                tools:ignore="ObsoleteLayoutParam,RtlHardcoded">
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/btnFishRoot"
+                android:background="@mipmap/ic_launcher"
+                android:layout_marginRight="31dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="31dp"
+                android:layout_marginTop="212dp"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/no_content"
+                android:text="@string/alert_no_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/list_menu_blok"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingTop="50dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:gravity="center"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
+
+

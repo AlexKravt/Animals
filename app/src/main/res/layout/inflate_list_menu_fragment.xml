@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/radius_light"
+        android:gravity="center"
+        android:id="@+id/list_menu_fragment" >
+
+        <ImageView
+            android:layout_height="30dp"
+            android:id="@+id/icon"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Заголовок"
+                    android:id="@+id/tv_root"
+                    android:textSize="@dimen/txt_size_big" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Описание"
+                    android:id="@+id/tv_comment"
+                    android:textColor="#ff727272"
+                    android:textSize="@dimen/txt_size_smol"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        <ImageView
+            android:layout_height="30dp"
+            android:id="@+id/icon1"
+            android:src="@android:drawable/ic_secure"
+            android:layout_width="30dp"
+            android:layout_gravity="right"
+            android:visibility="gone"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
